@@ -1,0 +1,96 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 800px;
+  }
+}
+
+
+body {
+  background-color: rgb(230, 230, 230);
+  color: rgb(60, 60, 60);
+  text-align: center;
+  font-family: roboto;
+}
+
+
+
+.card-white {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 250px;
+  text-align: center;
+}
+
+.Le-Wagon {
+  text-decoration: none;
+  color: white;
+  background-color: #e60000;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+#Le-Wagon-hover:hover {
+  background-color: #0000cc;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  color: rgb(50, 50, 50);
+  font-size: 24px;
+  line-height: 200%
+  font-
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+
+#btn-red:hover {
+  color: #0000cc;
+}
+
+#btn-red {
+  color: #e60000;
+}
+
+
+.social-icons {
+  font-size: 30px;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+.avatar-round {
+  width: 80%;
+  border-radius: 20%;
+}
